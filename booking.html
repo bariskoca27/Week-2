@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book an Appointment - The Classic Barber</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="brand">The Classic Barber</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="prices.html">Prices</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Book Your Appointment</h2>
+      <p style="text-align:center;">Fill out the form below to schedule your grooming session. We look forward to seeing you!</p>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required />
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" placeholder="Your Phone" required />
+
+        <label for="service">Select Service</label>
+        <select id="service" required>
+          <option value="">--Choose a Service--</option>
+          <option value="haircut">Haircut & Styling</option>
+          <option value="shave">Hot Towel Shave</option>
+          <option value="beard">Beard Grooming</option>
+          <option value="kids">Kids & Seniors</option>
+        </select>
+
+        <label for="date">Select Date</label>
+        <input type="date" id="date" required />
+
+        <label for="time">Select Time</label>
+        <input type="time" id="time" required />
+
+        <button type="submit">Book Appointment</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 The Classic Barber. All rights reserved.
+  </footer>
+</body>
+</html>
