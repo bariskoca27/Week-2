@@ -1,0 +1,41 @@
+📌 **Week 2 Challenge Submission – Multi-Page Responsive Barber Shop Website**
+
+✅ **What I Have Done:**
+
+🧭 **Built a multi-page website** for a classic barber shop, including **Home**, **About**, **Services**, **Prices**, **Bookings**, and **Contact** pages. Each page uses semantic HTML to ensure a structured, accessible, and professional online presence.  
+
+🔧 **Utilized Flexbox** for layout:
+- The **navigation bar** is sticky and fixed at the top, with evenly spaced links. On smaller screens, it collapses into a vertical menu.
+- The **About** section features an image and short bio text, aligned horizontally (or vertically on smaller screens).
+- The **Services** section showcases grooming options with styled cards, arranged in a responsive grid.
+- The **Prices** section displays packages and costs in a clear layout.
+- The **Bookings** page includes a styled booking form with date, time, service, and contact fields.
+- The **Contact** page contains a contact form with clickable email and phone links.
+
+🎨 **Applied CSS**:
+- Used CSS variables for consistent colours, fonts, and spacing.
+- External stylesheet controls layout, colours, fonts, and spacing.
+- Google Fonts (Montserrat) used for a professional look.
+- Hover effects and transitions added to buttons and cards.
+
+🖼️ **Included Pseudo-elements**:
+- Used `::after` for animated underlines on navigation links, expanding smoothly on hover.
+
+📱 **Ensured Full Responsiveness**:
+- Media queries make the site mobile- and tablet-friendly.
+- Content reflows properly, and navigation adapts into a collapsible menu.
+- Images and layout elements resize proportionally across devices.
+
+🧾 **Footer Section**:
+- Created a footer with copyright information and illustration credits.
+
+🚀 **Deployment on GitHub Pages**:
+🔗 - Code pushed to a public GitHub repository:👉 https://github.com/bariskoca27/Week-2 
+🔗 - Site successfully deployed and accessible at:👉 https://bariskoca27.github.io/Week-2/
+
+🌍 **Summary**:
+This challenge helped me practice semantic HTML, external CSS styling, responsive Flexbox layouts, form creation, and GitHub Pages deployment.  
+The site is now fully functional and live online. 🌐✅
+
+— Baris Koca  
+Step8Up Bootcamp Student — Week 2 Challenge
